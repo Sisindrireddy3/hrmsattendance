@@ -1,0 +1,383 @@
+.container{
+    height: 1500px;
+    width: 135% ;
+    background-color: whitesmoke;
+}
+.header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+    padding-top: 9px;
+    
+}
+.timesheet{
+    height: 400px;
+    width: 550px;
+    float: left;
+    background-color:white;
+    margin-left: 20px;
+    
+    
+    h3{
+        padding-top: 10px;
+        margin-left: 20px;
+    }
+    
+   
+}
+.grid-item{
+    
+}
+.time{
+    margin-left: 115px;
+    margin-top: -37px;
+}
+.punch{
+    height: 60px;
+    width: 500px;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+    
+    p{
+        margin-top: -10px;
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+.hrs button {
+    height: 100px;
+    width: 100px;
+    border-radius: 300px;
+    border-width: 1px;
+    margin-top: 20px;
+    margin-left: 200px;
+
+}
+.punchout button{
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: red;
+    border: 0px;
+    margin-left: 180px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    background-color: whitesmoke;
+    padding: 10px;
+    grid-row-gap: 10px;
+    margin-top: 20px;
+}
+
+.statistics{
+    height: 400px;
+    width: 550px;
+    background-color: white;
+    margin-left: 20px;
+
+}
+
+.maincontainer1 .statistics{
+    display: flex;
+}
+.stat{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 19px;
+}
+.today{
+    height: 40px;
+    width: 500px;
+    background-color: whitesmoke;
+    margin-top: 30px;
+}
+.title{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.time{
+    font-size: 15px;
+    margin-left: 420px;
+}
+.line{
+    height:5px ;
+    width: 480px;
+    background: linear-gradient(to right, red 60%, white 40%);
+    margin-left: 10px
+}
+.thisweek{
+    height: 40px;
+    width: 500px;
+    background-color: whitesmoke;
+    margin-top: 10px;
+}
+.title{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.time{
+    font-size: 15px;
+    margin-left: 420px;
+}
+.line2{
+    height:5px ;
+    width: 480px;
+    background: linear-gradient(to right, gold, white 40%);
+    margin-left: 10px
+}
+.thismonth{
+    height: 40px;
+    width: 500px;
+    background-color: whitesmoke;
+    margin-top: 10px;
+}
+.title{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.time{
+    font-size: 15px;
+    margin-left: 420px;
+}
+.line3{
+    height:5px ;
+    width: 480px;
+    background: linear-gradient(to right, green 60%, white 40%);
+    margin-left: 10px
+}
+.remaining{
+    height: 40px;
+    width: 500px;
+    background-color: whitesmoke;
+    margin-top: 10px;
+}
+.title{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.time{
+    font-size: 15px;
+    margin-left: 420px;
+}
+.line4{
+    height:5px ;
+    width: 480px;
+    background: linear-gradient(to right, brown 60%, white 40%);
+    margin-left: 10px
+}
+.overtime{
+    height: 40px;
+    width: 500px;
+    background-color: whitesmoke;
+    margin-top: 10px;
+}
+.title{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.time{
+    font-size: 15px;
+    margin-left: 420px;
+}
+.line5{
+    height:5px ;
+    width: 480px;
+    background: linear-gradient(to right, blue, white 40%);
+    margin-left: 10px
+}
+
+.todayactivity{
+    height: 400px;
+    width: 550px;
+    background-color:white;
+    float: left;
+    margin-left: 20px;
+    h3{
+      padding-top: 20px;
+      margin-left: 10px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+}
+.activity1{
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;  
+    border: 2px solid red;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+ 
+}
+.linea{
+    width: 2px;
+    height: 35px;
+    background-color: black;
+    margin-left: 36px;
+    margin-top: -40px;
+}
+.punch1{
+    margin-left: 90px;
+    span{
+        font-size: 20px;
+    }
+}
+.timer1{
+    margin-left: 27px;
+    margin-top: -20px;
+}
+.activity2{
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;  
+    border: 2px solid red;
+    margin-left: 30px;    
+}
+.lineb{
+    width: 2px;
+    height: 35px;
+    background-color: black;
+    margin-left: 36px;
+    margin-top: -40px;
+}
+.punch2{
+    margin-left: 90px;
+    span{
+        font-size: 20px;
+    }
+}
+.timer2{
+    margin-left: 27px;
+    margin-top: -20px;
+}
+.activity3{
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;  
+    border: 2px solid red;
+    margin-left: 30px;    
+}
+.linec{
+    width: 2px;
+    height: 35px;
+    background-color: black;
+    margin-left: 36px;
+    margin-top: -40px;
+}
+.punch3{
+    margin-left: 90px;
+    span{
+        font-size: 20px;
+    }
+}
+.timer3{
+    margin-left: 27px;
+    margin-top: -20px;
+}
+.activity4{
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;  
+    border: 2px solid red;
+    margin-left: 30px;    
+}
+.lined{
+    width: 2px;
+    height: 35px;
+    background-color: black;
+    margin-left: 36px;
+    margin-top: -40px;
+}
+.punch4{
+    margin-left: 90px;
+    span{
+        font-size: 20px;
+    }
+}
+.timer4{
+    margin-left: 27px;
+    margin-top: -20px;
+}
+.activity5{
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;  
+    border: 2px solid red;
+    margin-left: 30px;    
+}
+.linee{
+    width: 2px;
+    height: 35px;
+    background-color: black;
+    margin-left: 36px;
+    margin-top: -40px;
+}
+.punch5{
+    margin-left: 90px;
+    span{
+        font-size: 20px;
+    }
+}
+.timer5{
+    margin-left: 27px;
+    margin-top: -20px;
+}
+.activity6{
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;  
+    border: 2px solid red;
+    margin-left: 30px;    
+}
+.linef{
+    width: 2px;
+    height: 35px;
+    background-color: black;
+    margin-left: 36px;
+    margin-top: -40px;
+}
+.punch6{
+    margin-left: 90px;
+    span{
+        font-size: 20px;
+    }
+}
+.timer6{
+    margin-left: 27px;
+    margin-top: -20px
+}
+.statistics{
+    float: left;
+}
+.s1 input{
+    width: 300px;
+    height: 40px;
+    float: left;
+}
+.s2 input{
+    width: 300px;
+    height: 40px;
+    float: left;
+}
+.s3 input{
+    width: 300px;
+    height: 40px;
+    float: left;
+}
+.s4 button{
+    width: 300px;
+    height: 40px;
+    background-color: green;
+    color: white;
+}
+.box1{
+    padding: 30px;
+   
+}
